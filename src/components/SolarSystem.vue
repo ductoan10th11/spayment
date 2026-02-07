@@ -51,7 +51,7 @@ onMounted(() => {
   // Sun
   const sunGeometry = new THREE.SphereGeometry(40, 64, 64);
   const sunMaterial = new THREE.MeshBasicMaterial({
-    color: 0x129347, // Brand Green
+    color: 0x2d9a9a, // Brand Teal
     transparent: true,
     opacity: 1
   });
@@ -62,7 +62,7 @@ onMounted(() => {
   const sunDiv = document.createElement('div');
   sunDiv.className = 'planet-label';
   sunDiv.textContent = 'SPAYMENT';
-  sunDiv.style.color = '#129347';
+  sunDiv.style.color = '#2d9a9a';
   sunDiv.style.fontWeight = 'bold';
   sunDiv.style.fontSize = '16px'; 
   sunDiv.style.letterSpacing = '2px';
@@ -73,7 +73,7 @@ onMounted(() => {
   // Sun Glow
   const sunGlowGeometry = new THREE.SphereGeometry(50, 64, 64);
   const sunGlowMaterial = new THREE.MeshBasicMaterial({
-    color: 0x129347,
+    color: 0x2d9a9a,
     transparent: true,
     opacity: 0.15,
     side: THREE.BackSide
@@ -216,7 +216,7 @@ onMounted(() => {
   text-transform: uppercase;
   letter-spacing: 2px;
   white-space: nowrap;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #333;
   font-weight: 600;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
